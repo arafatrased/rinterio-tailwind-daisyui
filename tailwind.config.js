@@ -9,7 +9,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+        'bgcolor' : "#ABEF5F"
+      }
+    },
   },
   plugins: [
     require('daisyui'),

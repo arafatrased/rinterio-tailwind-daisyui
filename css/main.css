@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.btn-one{
+    @apply w-[12rem] flex gap-2 items-center justify-center ml-2 py-1 text-black cursor-pointer px-3 bg-[#abef5f80] hover:text-black rounded-[2rem] border-2 border-bgcolor;
+}
+
+.btn-regular{
+    @apply hidden lg:flex gap-2 items-center ml-2 py-1 text-black cursor-pointer px-4 bg-[#ABEF5F] hover:bg-[#ABEF5F] hover:text-black rounded-[2rem];
+}

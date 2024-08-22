@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     </head>
-<body class="bg-[#fafaf4]">
+<body class="bg-[#fbfaf5]">
     <!-- header section starts -->
      <header class="container w-5/6 py-8">
         <nav class="flex items-center justify-between">
@@ -19,7 +19,7 @@
                 <div class="bg-[#ABEF5F] w-8 h-8 rounded-full">
                     <img class="-rotate-45 w-8 h-8 p-2" src="icons/rarrow.png" alt="">
                 </div>
-                <h1 class="text-xl md:text-3xl ml-1  font-bold">Rinterio</h1>
+                <h1 class="text-[2rem] md:text-3xl ml-1  font-bold">Rinterio</h1>
             </div>
             <div>
                 <ul class="hidden lg:flex gap-5 text-[1rem] text-gray-600 px-1">
@@ -39,7 +39,7 @@
                     <i class="fa-solid fa-magnifying-glass" style="color: gray;"></i> 
                 
                 </div>
-                <div class="hidden lg:flex gap-2 items-center ml-2 py-1 text-black cursor-pointer px-4 bg-[#ABEF5F] hover:bg-[#ABEF5F] hover:text-black rounded-[2rem]">
+                <div class="btn-regular">
                     <a class="font-bold text-[.8rem] md:text-[1rem]">Book Consult</a>
                     <div class=" w-9 h-9 rounded-full">
                         <img class="w-9 h-9 -rotate-45" src="icons/arrow-right.png" alt="">
@@ -79,14 +79,14 @@
     <!-- main section starts -->
      <main>
         <!-- banner section begins -->
-        <section class="container w-5/6">
-            <div class=" w-1/2 mx-auto flex items-center justify-center">
+        <section class="container w-5/6 flex flex-col pb-28 items-center justify-center">
+            <div class=" w-2/3 lg:w-1/2 mx-auto flex items-center justify-center">
                 <img src="assets/banner.png" alt="">
             </div>
-            <h1 class="text-[2.5rem] md:text-[4rem] font-extrabold leading-[4.8rem] text-center justify-center">A barn house of this design has a striking appearance</h1>
-            <p class="w-3/4 mx-auto text-center mt-1 text-[#494949] justify-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, and large windows that flood the space with natural light.</p>
-            <div class="hidden lg:flex gap-2 items-center ml-2 py-1 text-black cursor-pointer px-4 bg-[#ABEF5F] hover:bg-[#ABEF5F] hover:text-black rounded-[2rem]">
-                <a class="font-bold text-[.8rem] md:text-[1rem]">Book Consult</a>
+            <h1 class="text-[2.5rem] md:text-[4rem] font-extrabold lg:leading-[4.8rem] text-center justify-center">A barn house of this design has a striking appearance</h1>
+            <p class="w-3/4 mx-auto text-center my-3 text-[#494949] justify-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, and large windows that flood the space with natural light.</p>
+            <div class="btn-one">
+                <a class="font-bold text-[.8rem] md:text-[1rem]">View Details</a>
                 <div class=" w-9 h-9 rounded-full">
                     <img class="w-9 h-9 -rotate-45" src="icons/arrow-right.png" alt="">
                </div>    
@@ -94,6 +94,76 @@
 
         </section>
 
+        <!-- about us section -->
+
+        <section class="bg-[#f4f4f4]">
+          <div class="container grid grid-cols-1 md:w-5/6 pb-28 pt-5">
+                <img class="hidden" src="assets/Vector.png" alt="">
+                <div class="pt-2 grid grid-cols-1 text-center items-center justify-center md:grid-cols-2 lg:grid-cols-2 px-3 lg:px-6 gap-4">
+                    <div class="flex flex-col items-center lg:items-start">
+                        <div>
+                            <button class="bg-white text-center font-bold py-1 px-3 flex gap-2 rounded-[2rem]">
+                                <img class="w-6 h-6" src="icons/right-arrow.png" alt="">
+                                About Us
+                            </button>
+                        </div>
+                        
+                        <h1 class="text-[2rem] md:text-[2.5rem] leading-[2.8rem] my-3 font-bold">We design thoughtful,<br>liveable spaces</h1>
+                        <p class="text-[#494949] my-4">The barn house captivates with its blend of rustic charm and 
+                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                            <div class="bg-white flex justify-center items-center gap-4 p-5 rounded-xl shadow-md mb-6">
+                                <img class="w-20 h-15" src="assets/commercial.png" alt="">
+                                <div class="text-start">
+                                    <h2 class="text-lg text-[#494949] font-bold my-3">Commercial</h2>
+                                    <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white flex justify-center items-center gap-4 p-4 rounded-xl shadow-md">
+                                <img class="w-20 h-15" src="assets/residential.png" alt="">
+                                <div class="text-start">
+                                    <h2 class="text-lg font-bold my-3 text-[#494949]">Residential</h2>
+                                    <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="w-[100%] h-[100%]">
+                        <img src="assets/Rectangle.png" alt="">
+                    </div>
+                </div>
+             
+          </div>
+        </section>
+
+        <!-- statistics section -->
+
+        <section class="bg-[#f4f4f4]">
+            <div class="container md:w-5/6 pb-28 pt-5">
+                <div class="grid w-4/5 mx-auto grid-cols-1 md:grid-cols-4 gap-10 md:gap-6 px-3 py-6 lg:px-6 lg:py-10 bg-base-100 rounded-xl shadow-lg">
+                    <div class="text-center flex flex-col items-center gap-2">
+                        <img class="w-7 h-7" src="icons/costumer.png" alt="">
+                      <div class="text-4xl font-bold text-gray-500">235+</div>
+                      <div class="text-gray-500">Happy Client Review</div>
+                    </div>
+                    <div class="text-center flex flex-col items-center gap-2">
+                        <img class="w-7 h-7" src="icons/freelance.png" alt="">
+                      <div class="text-4xl font-bold text-gray-500">50+</div>
+                      <div class="text-gray-500">Work Departments</div>
+                    </div>
+                    <div class="text-center flex flex-col items-center gap-2">
+                        <img class="w-7 h-7" src="icons/customer-service.png" alt="">
+                      <div class="text-4xl font-bold text-gray-500">30k+</div>
+                      <div class="text-gray-500">Our Happy Client</div>
+                    </div>
+                    <div class="text-center flex flex-col items-center gap-2">
+                        <img class="w-7 h-7" src="icons/team.png" alt="">
+                      <div class="text-4xl font-bold text-gray-500">307+</div>
+                      <div class="text-gray-500">Staff Members</div>
+                    </div>
+                  </div>
+            </div>
+            
+              
+        </section>
      </main>
 
 
