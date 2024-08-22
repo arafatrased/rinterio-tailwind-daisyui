@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
+    "vite": "vite",
     "build": "tailwindcss -i ./css/main.css -o ./css/output.css"
   },
   "keywords": [],
