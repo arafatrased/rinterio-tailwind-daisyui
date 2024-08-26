@@ -10,6 +10,10 @@ module.exports = {
       center: true,
     },
     extend: {
+      backgroundImage: {
+        'img1': "url('assets/img1.png')",
+        
+      },
       colors: {
         'bgcolor' : "#ABEF5F"
       }
